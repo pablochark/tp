@@ -1,0 +1,88 @@
+.menu {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+.menuItems {
+    background-color: #6b93dd;
+    border: #33a5c2 3px solid;
+    display: inline;
+    margin-right: 20px;
+  }
+
+.menuEnlaces {
+    color: black;
+    padding: 0 10px;
+    text-decoration: none;
+  }
+
+
+body {
+    background-image: url('../assets/fondo.jpg'); 
+    background-size: cover;  
+    background-attachment: fixed;
+}
+
+.formulario {
+    background-color: rgba(250, 250, 250, 0.5);
+    margin-right: 65%;
+}
+
+label {
+    margin: 5px;
+    display: block;
+
+}
+
+.mapa {
+    width: 450px;
+    height: auto;
+    position: relative;
+    top: -370px;
+    left: 500px;
+}
+
+.pie {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.contenedor{
+    background-image: url('../assets/fondoCajas.jpg');
+    background-size: cover;
+    text-align: center;
+    border: black 2px solid;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    /*grid-template-columns: 1fr;*/
+}
+
+.contenedor-serviciosIndex{
+    border: black 2px;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 20px;
+}
+
+.cajas{
+    border: black 2px solid;
+    border-radius: 10px;
+    max-width: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.cajas .texto{
+    font-size: 150%;
+    font-weight: bold;
+}
