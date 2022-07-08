@@ -1,3 +1,4 @@
+
 .menu {
     list-style-type: none;
     text-align: center;
@@ -68,21 +69,20 @@ label {
     gap: 20px;
 }
 
-.cajas{
+.ticket{
     border: black 2px solid;
-    border-radius: 10px;
-    max-width: 200px;
-    font-weight: bold;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+    padding: 10px;
+    width: 50%;
+    margin: 5px;
 
 }
 
-.cajas .texto{
-    font-size: 150%;
-    font-weight: bold;
+.banner {
+    background-image: url('../assets/fondoCajas.jpg');
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: right;
+    width: 250px;
 }
+
