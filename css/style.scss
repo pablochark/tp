@@ -134,4 +134,13 @@ label {
         text-align: center;
         color: #1A5276;
     }
+    .row{
+        .card{
+            width: 18rem;
+                .card-text {
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                }
+        }
+    }
 }

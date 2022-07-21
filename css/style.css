@@ -114,4 +114,11 @@ label {
 .cajas .titulo {
   text-align: center;
   color: #1A5276;
+}
+.cajas .row .card {
+  width: 18rem;
+}
+.cajas .row .card .card-text {
+  text-transform: uppercase;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
