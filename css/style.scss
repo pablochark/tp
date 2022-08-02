@@ -1,3 +1,5 @@
+@import "maps";
+
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {}
@@ -26,62 +28,27 @@
     }
 }
 
-.navbar {
-    background-color: black;
-        &:navbar-nav {
-            background-color: #1A5276;
-        }
-}
-
-
-.menu {
-    list-style-type: none;
+@mixin formatoTitulos {
     text-align: center;
-  }
-  
-.menuItems {
-    background-color: #6b93dd;
-    border: #33a5c2 3px solid;
-    display: inline;
-    margin-right: 20px;
-  }
-
-.menuEnlaces {
-    color: black;
-    padding: 0 10px;
-    text-decoration: none;
-  }
+    color: #1A5276;
+    text-transform: uppercase;
 
 
+}
 body {
     background-image: url('../assets/fondo.jpg'); 
     max-width: 100%;
     height: auto;
 }
 
-.formulario {
-    background-color: rgba(250, 250, 250, 0.5);
-    margin-right: 65%;
-}
-
 label {
     margin: 5px;
     display: block;
-
-}
-
-.mapa {
-    width: 450px;
-    height: auto;
-    position: relative;
-    top: -370px;
-    left: 500px;
 }
 
 .pie {
-    text-align: center;
+    @include formatoTitulos;
     color: black;
-    text-transform: uppercase;
 }
 
 .contenedor{
@@ -104,6 +71,10 @@ label {
     gap: 20px;
 }
 
+.box {
+    display: flex;
+}
+
 .ticket{
     border: black 2px solid;
     padding: 10px;
@@ -113,13 +84,9 @@ label {
 }
 
 .banner {
-    background-image: url('../assets/fondoCajas.jpg');
-    padding: 10px;
-    margin: 10px;
+    background-image: url('../assets/repair-banner.jpg');
     border: 2px solid black;
-    float: right;
-    width: 250px;
-    
+    width: 270px;
 }
 
 .imagenes{
@@ -143,4 +110,26 @@ label {
                 }
         }
     }
+}
+
+.contact-mapa {    
+    display: flex;
+    .contact-box {
+        margin-left: 20px;
+        max-width: 200%;
+            .formulario {
+                background-color: rgba(250, 250, 250, 0.5);
+                margin-right: 65%;
+                width: 500px;
+                }
+        }
+    .mapa {
+        width: 500px;
+        margin-left: 50px;
+        
+    }
+}
+
+.titulo-servicios {
+    @include formatoTitulos;
 }

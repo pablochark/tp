@@ -1,3 +1,16 @@
+/* MAPS */
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  color: red;
+}
+
+.linkedin {
+  color: green;
+}
+
 @media (max-width: 576px) {
   body {
     background-color: #0E6655;
@@ -13,40 +26,10 @@
     background-color: #1A5276;
   }
 }
-.navbar {
-  background-color: black;
-}
-.navbar:navbar-nav {
-  background-color: #1A5276;
-}
-
-.menu {
-  list-style-type: none;
-  text-align: center;
-}
-
-.menuItems {
-  background-color: #6b93dd;
-  border: #33a5c2 3px solid;
-  display: inline;
-  margin-right: 20px;
-}
-
-.menuEnlaces {
-  color: black;
-  padding: 0 10px;
-  text-decoration: none;
-}
-
 body {
   background-image: url("../assets/fondo.jpg");
   max-width: 100%;
   height: auto;
-}
-
-.formulario {
-  background-color: rgba(250, 250, 250, 0.5);
-  margin-right: 65%;
 }
 
 label {
@@ -54,18 +37,11 @@ label {
   display: block;
 }
 
-.mapa {
-  width: 450px;
-  height: auto;
-  position: relative;
-  top: -370px;
-  left: 500px;
-}
-
 .pie {
   text-align: center;
-  color: black;
+  color: #1A5276;
   text-transform: uppercase;
+  color: black;
 }
 
 .contenedor {
@@ -88,6 +64,10 @@ label {
   gap: 20px;
 }
 
+.box {
+  display: flex;
+}
+
 .ticket {
   border: black 2px solid;
   padding: 10px;
@@ -96,12 +76,9 @@ label {
 }
 
 .banner {
-  background-image: url("../assets/fondoCajas.jpg");
-  padding: 10px;
-  margin: 10px;
+  background-image: url("../assets/repair-banner.jpg");
   border: 2px solid black;
-  float: right;
-  width: 250px;
+  width: 270px;
 }
 
 .imagenes {
@@ -121,4 +98,27 @@ label {
 .cajas .row .card .card-text {
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+.contact-mapa {
+  display: flex;
+}
+.contact-mapa .contact-box {
+  margin-left: 20px;
+  max-width: 200%;
+}
+.contact-mapa .contact-box .formulario {
+  background-color: rgba(250, 250, 250, 0.5);
+  margin-right: 65%;
+  width: 500px;
+}
+.contact-mapa .mapa {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.titulo-servicios {
+  text-align: center;
+  color: #1A5276;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

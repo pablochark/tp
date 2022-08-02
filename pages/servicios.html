@@ -7,31 +7,67 @@
     <title>TECNO SUR - SERVICIOS</title>
     <script src="https://kit.fontawesome.com/51eeef3b9b.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../Media/Logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 
 <body>
-    <header>
-        <h1> Logo (Mas adelante voy a estar incorporandolo)</h1>
-    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tickets.html">Tickets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <nav>
-        <ul border="1" cellpadding="10" cellspacing="10" class = "menu">
-                <li class="menuItems"><a href="../index.html" class="menuEnlaces"> Home </a></li>
-                <li class="menuItems"><a href="../pages/servicios.html" class="menuEnlaces"> Servicios </a></li>
-                <li class="menuItems"><a href="../pages/tickets.html" class="menuEnlaces"> Tickets </a></li>
-                <li class="menuItems"><a href="../pages/nosotros.html" class="menuEnlaces"> Nosotros </a></li>
-                <li class="menuItems"><a href="../pages/contacto.html" class="menuEnlaces"> Contacto </a></li>
-        </ul>
+      <h1 class="titulo-servicios">Servicios</h1>
+
+      <div class="serviciosList">
+          <h5 class="subTitulos-servicios">Reparación</h5>
+          <p class="contenido-servicios">En nuestro laboratorio de electrónica reparamos a nivel componente placas, fuentes y equipamiento informático de clientes de nuestros Centros Autorizados de Servicio (CAS)</p>
+          <p>Opcionales:<br>
+          • Retiro y entrega en domicilio del CAS.<br>
+          • Scrap de partes o componentes irreparables.</p>
+          <h5 class="subTitulos-servicios">Soporte de segundo nivel</h5>
+          <p class="contenido-servicios">Brindamos soporte remoto de hardware y software a los técnicos de nuestras redes de CAS.</p>
+          <h5 class="subTitulos-servicios">Entrenamiento</h5>
+          <p class="contenido-servicios">Capacitamos en forma presencial y/o remota a los técnicos de nuestros Centros Autorizados de Servicio.</p>
+          <h5 class="subTitulos-servicios">Venta de partes</h5>
+          <p class="contenido-servicios">Proveemos partes nuevas originales o el reemplazo sugerido por el fabricante.</p>
+        </div>
+      </div>
     </nav>
 
     <footer>
         <hr>
         <div class ="pie">
-            <button> <i class="fa-brands fa-instagram"></i> <a href="../TP/assets/inst.png" target="_blank" > Instagram </button>
-            <button><i class="fa-brands fa-facebook"></i> <a href="../TP/assets/face.png" target="_blank"> Facebook</a> </button>
-            <button><i class="fa-brands fa-linkedin"></i> <a href="../TP/assets/linkedin.png" target="_blank"> Linkedin</a> </button>
+          <button> <i class="facebook fa-brands fa-instagram"></i> <a href="./TP/assets/inst.png" target="_blank" > Instagram </button>
+          <button><i class="instagram fa-brands fa-facebook"></i> <a href="./TP/assets/face.png" target="_blank"> Facebook</a> </button>
+          <button><i class="linkedin fa-brands fa-linkedin"></i> <a href="./TP/assets/linkedin.png" target="_blank"> Linkedin</a> </button>
 
             <p>Telefono: 11-1234-5678</p>
             <p>Mail: tecnosur@mail.com</p>
@@ -39,5 +75,6 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
