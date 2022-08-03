@@ -135,4 +135,51 @@ label {
 }
 .serviciosList .contenido-servicios {
   font-style: italic;
+}
+
+.titulo-nosotros {
+  padding-top: 20px;
+  text-align: center;
+}
+.titulo-nosotros .titulo {
+  text-decoration: underline;
+  color: #1A5276;
+  text-transform: uppercase;
+}
+.titulo-nosotros .texto {
+  padding: 30px;
+  color: grey;
+  font-style: italic;
+  font-size: medium;
+}
+
+.descripcion-nosotros .descripcion-contenedor .nosotrosPrimero {
+  padding: 10px;
+  background-color: lightblue;
+  display: flex;
+}
+.descripcion-nosotros .descripcion-contenedor .nosotrosPrimero .gerente-primero {
+  width: 200px;
+}
+.descripcion-nosotros .descripcion-contenedor .nosotrosPrimero .texto-gerenta {
+  text-align: center;
+  color: gray;
+  font-size: medium;
+  font-style: oblique;
+  padding-top: 50px;
+}
+.descripcion-nosotros .descripcion-contenedor .nosotrosSegundo {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.descripcion-nosotros .descripcion-contenedor .nosotrosSegundo .gerente-segundo {
+  width: 200px;
+}
+.descripcion-nosotros .descripcion-contenedor .nosotrosSegundo .texto-gerente {
+  text-align: center;
+  color: gray;
+  font-size: medium;
+  font-style: oblique;
+  padding-top: 50px;
 }/*# sourceMappingURL=style.css.map */
