@@ -157,6 +157,8 @@ label {
   padding: 10px;
   background-color: lightblue;
   display: flex;
+  border: black 2px solid;
+  margin: 5px;
 }
 .descripcion-nosotros .descripcion-contenedor .nosotrosPrimero .gerente-primero {
   width: 200px;
@@ -172,6 +174,8 @@ label {
   background-color: lightblue;
   display: flex;
   flex-direction: row-reverse;
+  border: black 2px solid;
+  margin: 5px;
 }
 .descripcion-nosotros .descripcion-contenedor .nosotrosSegundo .gerente-segundo {
   width: 200px;
